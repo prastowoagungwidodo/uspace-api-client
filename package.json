@@ -1,6 +1,6 @@
 {
   "name": "uspace-api-client",
-  "version": "0.1.0-11",
+  "version": "0.1.0-12",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,5 @@
   "license": "GPL-3.0",
   "dependencies": {
     "cookies-js": "^1.2.2"
-  },
-  "devDependencies": {
-    "browserify": "^13.1.0",
-    "vinyl-source-stream": "^1.1.0"
   }
 }
