@@ -32,7 +32,7 @@ var Auth = {
             // Detect hash change untuk mengambil code dari callback Oauth
             window.addEventListener('hashchange', this.hasChange.bind(this), false);
             // Open Popup window
-            window.open(this.api+'/authorize?response_type=code&client_id=57tkh69u0&state=xyz&hash=login', 'Authorize', 'height=600,width=400');
+            window.open(this.api+'/authorize?response_type=code&client_id='+this.clientID+'&state=xyz&hash=login', 'Authorize', 'height=600,width=400');
 
         } else {
             // Delete event

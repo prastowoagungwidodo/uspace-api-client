@@ -1,13 +1,13 @@
 {
-  "name": "libs-sdk-js",
-  "version": "0.1.0",
+  "name": "uspace-api-client",
+  "version": "0.1.0-11",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "cookies-js": "^1.2.2"
   },
